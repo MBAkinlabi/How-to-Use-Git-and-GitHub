@@ -7,61 +7,43 @@
 - You can also import (or download) from a remote repository.
 - Here are the basic commands.
 - **$ git init**        // will initialize a local git repository. You never have to touch the .git file that this action will create. As a programmer you shouldn't care about this.
-
 ```bash
     $ git init
 ```
-
 - Once you've initialized git in your project folder. You can then begin to run other commands.
 - **$ git add <file>**     // Will add file or files to the staging area. More information about the staging area later to make it ready for commit. More examples later the below shell code to better understand how it works.
-
 ```bash
     $ git add
 ```
-
 - **$ git status**    // If you want to see what you have in the staging area and the status and the differences, this code gives you that. It gives you information you need to know the status of things.
-
 ```bash
     $ git status
 ```
-
 - **$ git commit**    // When you're ready, you can go ahead and commit your files. It'll put everything in the staging area and put it into the local repository. There are also some options with git commit. You'll learn about them later.
-
 ```bash
     $ git commit
 ```
-
 - **$ git push**      // Will take your local repository, which you've just created and push it to your remote repository. Again examples of remote repositories are GitHub and BitBucket. You'll have to add a bit more information like your credentials and the name of your repository. Don't worry, we'll talk about them in the examples you'll come across later below. You can also create ssh keys so that you won't have to add username and password.
-
-```bash
+   ```bash
     $ git push
 ```
-
 - **$ git pull**   // If you want to pull the latest changes from the remote repository, you can just do git pull. So, you have the files already, you just want to pull in the latest changes. That's when you use this.
-
 ```bash
     $ git pull
 ```
-
 - **$ git clone**    // If you want to clone a repository into a new directory on your local machine, you use git clone. Clone anything like a project or module (library) you like. Anything available publicly. And maybe for free.
-
 ```bash
     $ git clone 
 ```
-
-- Installing git is simple.
+ - Installing git is simple.
 - **If you're Linux (Debian) do this:**
-
 ```bash
     $ sudo apt-get install git
 ```
-
 - **If you're on Linux (Fedora) do this:**
-
 ```bash
     $ sudo yum install git
 ```
-
 - **If you're on Mac, go to this site** [https://git-scm.com/downloads](https://git-scm.com/downloads) and download for Mac: [https://git-scm.com/download/mac](https://git-scm.com/download/mac)
 - **If you're on Windows, go to this site** [https://git-scm.com/downloads](https://git-scm.com/downloads) and download for Windows: [https://git-scm.com/download/win](https://git-scm.com/download/win)
 - **I should note that, you can download for Linux/Unix on the this site** [https://git-scm.com/downloads](https://git-scm.com/downloads) and link: [https://git-scm.com/download/linux](https://git-scm.com/download/linux)
@@ -79,11 +61,9 @@
 - When installation is completed, just launch Git Bash.
 - Author recommend Git Bash over Windows command line. So use Git Bash alone for git.
 - Type this to check your git version.
-
 ```bash
     $ git --version
 ```
-
 - You'll see the version you have. Make sure it's the latest.
 - When you have Git Bash, you can go directly to the folder you want on normal windows and right click. You'll see "**Git Bash Here**."
 
